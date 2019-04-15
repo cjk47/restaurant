@@ -1,0 +1,82 @@
+body{
+  margin:  10px 15px;
+  text-align: center;
+}
+
+a{
+  padding-left: 15px;
+  color: #000000;
+}
+
+img{
+  padding: 10px;
+  display: block;
+  border-radius: 30px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.hero-container{
+  background-image: url("resources/background");
+  height: 500px;
+  margin: 20px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content{
+  background: rgba(0, 0, 0, 0.35);
+  width: 100%
+}
+
+.food-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.overall-location-container{
+  background-image: url("resources/background2.png");
+  height: 400px;
+  margin-top: 40px;
+}
+
+.location{
+  background-color: black;
+  color: white;
+  margin: 0px 40px;
+  width: 300px;
+  padding: 10px 0px;
+  border-radius: 30px;
+  margin-top: 65px;
+
+}
+
+.location span{
+  display: block;
+  margin-bottom: 15px;
+}
+
+.three-locations-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overall-location-container h2{
+  padding-top: 15px;
+}
+
+.footer-container span{
+  display: block;
+  padding: 5px;
+}
+
+.copyright{
+  text-align: left;
+}
